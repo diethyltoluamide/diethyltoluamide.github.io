@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "vcr";
+    src: url('../assets/vcr_osd_mono.ttf');
+}
+
+@font-face {
+    font-family: "unispace";
+    src: url('../assets/unispace_bd.otf');
+}
+
+* {
+    font-family: "unispace";
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+    color: white;
+}
+
+body {
+    background-image: url('../assets/br_title_bg.png');
+    background-size: cover;
+    padding:5px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-family:"vcr";
+    font-size:30px;
+}
+
+p {
+    font-size: 19px;
+    padding: 0;
+}
+
+span { font-size: 15px; }
+
+hr {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 50%;
+    /*box-shadow:white 2px 2px 0;*/
+}
+
+.shell,
+.textbutton {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main {
+    border: 3px solid white;
+    border-radius: 7px;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    background-color: black;
+}
+
+.biggertext {
+    font-size: 25px;
+}
+
+.announcement {
+    font-size: 15px;
+    padding: 0 200px;
+}
+
+.fire,
+.change {
+    width: 200px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.live { background-color:darkred; }
+.blank { background-color:slategray; }
+.reset { background-color:black; }
+.addl { background-color:darkred; }
+.addb { background-color:slategray; }
+.remove { background-color:black; }
