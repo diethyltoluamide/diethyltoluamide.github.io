@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="https://cocosbeans.me/brtracker/assets/shell.jpg">
+        <title>Buckshot Roulette Tracker</title>
+
+        <script src="res/index.js" defer></script>
+        <link rel="stylesheet" href="res/index.css">
+    </head>
+    <body>
+        <h1>
+            The Buckshot Roulette Tracker
+        </h1>
+        <p>Made for <a href="https://mikeklubnika.itch.io/buckshot-roulette">Buckshot Roulette</a> •
+            Created by <a href="https://cocosbeans.me">cocosbeans</a> (2024) • v1.1</p>
+        <span><a href="https://buymeacoffee.com/cocosbeans"><em>Buy me a flower?</em></a></span><br>
+        <!--- <button class="textbutton" id="credits">Click for Credits</button> --->
+
+        <hr style="margin-bottom:10px;">
+
+        <div class="main" id="main">
+            <h2 style="margin-top:0">Shells</h2>
+
+            <button id="add_live" class="change addl">Add Live Round</button>
+            <!--- <button id="remove" class="change remove">Remove Last Round</button> --->
+            <button id="add_blank" class="change addb">Add Blank Round</button>
+                <br>
+            <img id="shell0" src="assets/round_unknown.png" width="64">
+            <img id="shell1" src="assets/round_unknown.png" width="64">
+            <img id="shell2" src="assets/round_unknown.png" width="64">
+            <img id="shell3" src="assets/round_unknown.png" width="64">
+            <img id="shell4" src="assets/round_unknown.png" width="64">
+            <img id="shell5" src="assets/round_unknown.png" width="64">
+            <img id="shell6" src="assets/round_unknown.png" width="64">
+            <img id="shell7" src="assets/round_unknown.png" width="64">
+                <br>
+            <img id="qshell0" src="assets/round_unknown.png" width="64">
+            <img id="qshell1" src="assets/round_unknown.png" width="64">
+            <img id="qshell2" src="assets/round_unknown.png" width="64">
+            <img id="qshell3" src="assets/round_unknown.png" width="64">
+            <img id="qshell4" src="assets/round_unknown.png" width="64">
+            <img id="qshell5" src="assets/round_unknown.png" width="64">
+            <img id="qshell6" src="assets/round_unknown.png" width="64">
+            <img id="qshell7" src="assets/round_unknown.png" width="64">
+                <br>
+
+            <button id="fire_live" class="fire live">Fire as Live Round</button>
+            <button id="resetshells" class="fire reset">Reset Shells</button>
+            <button id="fire_blank" class="fire blank">Fire as Blank Round</button>
+
+            <h2>Probability</h2>
+
+            <div id="probability">
+                <p class="biggertext">
+                    Live/Blank Ratio: 0/0<br>
+                    Odds of a Live Round: 0%<br>
+                    Odds of a Blank Round: 0%
+                </p>
+            </div>
+        </div>
+        <div class="main" id="news" style="margin-top:15px;">
+            <h2 style="margin-top:0;">Update News</h2>
+            <button id="expandnews" class="fire reset">
+                Expand text
+            </button>
+        </div>
+    </body>
+</html>
